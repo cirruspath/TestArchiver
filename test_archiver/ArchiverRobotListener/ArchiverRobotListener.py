@@ -5,7 +5,7 @@
 # Listener methods have unused arguments
 
 from archiver import archiver
-from configs import config
+from configs import configs
 
 class ArchiverRobotListener:
     ROBOT_LISTENER_API_VERSION = 2
