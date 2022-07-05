@@ -10,6 +10,7 @@ except ImportError:
     psycopg2 = None
 
 from . import version, configs
+import version from ../version
 
 
 SCHEMA_UPDATES = (
