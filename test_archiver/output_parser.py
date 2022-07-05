@@ -5,7 +5,8 @@ import os.path
 import sys
 import xml.sax
 
-from . import archiver, configs
+from archiver import archiver
+from configs import configs
 
 DEFAULT_SUITE_NAME = 'Unnamed suite'
 
