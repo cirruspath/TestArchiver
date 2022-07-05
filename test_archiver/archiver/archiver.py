@@ -9,9 +9,9 @@ from collections import defaultdict
 from database import database
 from version import version
 from archiver_listeners import archiver_listeners
-from configs import Config
+from configs import config
 
-config = Config()
+config = config.Config()
 
 SUPPORTED_TIMESTAMP_FORMATS = (
         "%Y%m%d %H:%M:%S.%f",
