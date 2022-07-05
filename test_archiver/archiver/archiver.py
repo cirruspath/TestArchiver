@@ -6,8 +6,10 @@ from hashlib import sha1
 from datetime import datetime, timedelta
 from collections import defaultdict
 
-from . import database, version, archiver_listeners
-from .configs import Config
+from database import database
+from version import version
+from archiver_listeners import archiver_listeners
+from configs import Config
 
 config = Config()
 

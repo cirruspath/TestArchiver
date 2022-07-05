@@ -4,7 +4,8 @@
 # pylint: disable=W0613
 # Listener methods have unused arguments
 
-from . import archiver, configs
+from archiver import archiver
+from configs import configs
 
 class ArchiverRobotListener:
     ROBOT_LISTENER_API_VERSION = 2

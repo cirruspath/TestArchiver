@@ -3,7 +3,7 @@ import json
 import sys
 from collections import defaultdict
 
-from . import version
+from version import version
 
 
 def read_config_file(file_name):

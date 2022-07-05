@@ -9,9 +9,8 @@ try:
 except ImportError:
     psycopg2 = None
 
-from . import version, configs
-import version from ../version
-
+from version import version
+from configs import configs
 
 SCHEMA_UPDATES = (
     #(update_id, minor, file)
